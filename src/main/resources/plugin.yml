@@ -1,0 +1,10 @@
+name: SelectiveMining
+version: '1.0.0'
+main: com.ashduino101.selectivemining.SelectiveMining
+api-version: 1.21
+authors: [ ashduino101 ]
+description: Control what blocks a tool can break
+permissions:
+  selectivemining.select:
+    description: 'Allows access to the /selectivemining (/sm) command.'
+    default: op
